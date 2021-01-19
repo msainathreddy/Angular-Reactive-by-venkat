@@ -1,0 +1,45 @@
+<div class="panel panel-primary">
+    <div class="panel-heading">
+      <h3 class="panel-title">Watches Data</h3>
+    </div>
+    <div class="panel-body">
+      <!-- <img src="../assets/images/iStockEmployeeEngagement.jpg" class="img-responsive"/> -->
+      <div class="table-responsive">
+        <table class="table table-bordered" *ngIf="watData && watData.length" >
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Category</th>
+                    <th>Status</th>
+                  
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let wat of watData">
+                <td>{{wat.Name}}</td>
+                <td>{{wat.Price}}</td>
+                <td>{{wat.Category}}</td> 
+                <td>{{wat.Status}}</td>
+                </tr>
+    
+            </tbody>
+        </table>
+    </div>
+    </div>
+  </div>
+
+  <div align="center">
+    Welcome to Home Viewer 
+</div>
+
+<div align="center" appDemoDirective>
+ <h1>Let us use Directive to modify our Angular Application</h1>  
+</div>
+
+<h1>Home component</h1>
+<button class="btn btn-primary btn btn-space" (click)="greet()">Greet</button>
+<button class="btn btn-primary" (click)="appreciate()">Appreciate</button>
+
+<app-office></app-office>
+

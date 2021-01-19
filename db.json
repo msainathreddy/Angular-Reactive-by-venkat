@@ -1,0 +1,85 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "fullName": "Mark",
+      "contactPreference": "email",
+      "email": "mark@gmail.com",
+      "phone": "5641238971",
+      "skills": [
+        {
+          "skillsName": "C#",
+          "experienceInYears": 1,
+          "proficiency": "beginner"
+        },
+        {
+          "skillsName": "Java",
+          "experienceInYears": 2,
+          "proficiency": "intermediate"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "fullName": "John",
+      "contactPreference": "phone",
+      "email": "john@gmail.com",
+      "phone": "3242138971",
+      "skills": [
+        {
+          "skillsName": "Angular 2",
+          "experienceInYears": 2,
+          "proficiency": "beginner"
+        },
+        {
+          "skillsName": "HTML 5",
+          "experienceInYears": "8",
+          "proficiency": "advanced"
+        },
+        {
+          "skillsName": "LINQ",
+          "experienceInYears": "10",
+          "proficiency": "advanced"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "fullName": "Sainath",
+      "contactPreference": "email",
+      "email": "sainathreddy447@gmail.com",
+      "phone": "07358 724484",
+      "skills": [
+        {
+          "skillsName": "java",
+          "experienceInYears": "8",
+          "proficiency": "intermediate"
+        }
+      ]
+    }
+  ],
+  "watch": [
+    {
+      "id": 1,
+      "Name": "Diamond Watch",
+      "Price": "600",
+      "Category": "Accessories",
+      "Status": "INSTOCK"
+    },
+    {
+      "id": 2,
+      "Name": "Black Watch",
+      "Price": "700",
+      "Category": "Accessories",
+      "Status": "INSTOCK"
+    },
+    {
+      "id": 3,
+      "Name": "Blue Watch",
+      "Price": "800",
+      "Category": "Accessories",
+      "Status": "LOWSTOCK"
+    }
+
+  ]
+}

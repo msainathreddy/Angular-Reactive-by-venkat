@@ -1,0 +1,17 @@
+{
+    "fullName": {
+        "required": "Full Name is required.",
+        "maxlength": "Full Name must be less than 10 characters."
+    },
+    "lastName": {
+        "required": "Full Name is required.",
+        "maxlength": "Full Name must be less than 10 characters."
+    },
+    "email": {
+        "required": "Email is required.",
+        "emailDomain": "Email Domain must be gmail.com"
+    },
+    "password": {
+        "required": "Phone Number is required."
+    }
+}

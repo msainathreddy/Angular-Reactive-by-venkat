@@ -1,0 +1,20 @@
+{
+    "fullname": {
+        "required": "Full Name is required.",
+        "minlength": "Full Name must be greater than 2 characters.",
+        "maxlength": "Full Name must be less than 10 characters."
+    },
+    "email": {
+        "required": "Email is required.",
+        "emailDomain": "Email Domain must be gmail.com"
+    },
+    "confirmEmail": {
+        "required": "confirm mail is required"
+    },
+    "emailGroup": {
+        "emailMisMatch": "Email and confirm Mail not match"
+    },
+    "phone": {
+        "required": "Phone Number is required."
+    }
+}

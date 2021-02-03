@@ -1,0 +1,6 @@
+{
+    "meetingName": {
+        "required": "MeetingName is required."
+    }
+    
+}
